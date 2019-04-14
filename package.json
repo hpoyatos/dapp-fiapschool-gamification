@@ -1,0 +1,23 @@
+{
+  "name": "dapp-fiapschool-gamification",
+  "version": "1.0.0",
+  "description": "FIAP School Gamification",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "dependencies": {
+    "next": "^8.0.4",
+    "next-routes": "^1.4.2",
+    "openzeppelin-solidity": "^2.2.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.86.0",
+    "solc": "^0.5.7",
+    "web3": "^1.0.0-beta.52"
+  }
+}
